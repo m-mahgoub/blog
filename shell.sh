@@ -33,3 +33,10 @@ pip install ipython
 
 ipython
 
+# rerun script after making tag system
+python scripts/create_db.py
+
+pip install flask-migrate
+
+touch manage.py
+
