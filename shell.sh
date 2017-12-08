@@ -37,6 +37,17 @@ ipython
 python scripts/create_db.py
 
 pip install flask-migrate
+pip install Flask-Script
 
 touch manage.py
+
+python manage.py db init
+
+python manage.py db migrate
+
+python manage.py db upgrade
+
+python manage.py db migrate
+
+python manage.py db upgrade
 

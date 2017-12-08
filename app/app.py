@@ -1,7 +1,7 @@
 from flask import Flask # 1st
 # %%%%%%%%%%%%%%
-flask.ext.migrate import Migrate, MigrateCommand
-flask.ext.script import Manager
+from flask_migrate import Migrate, MigrateCommand
+from flask_script import Manager
 # %%%%%%%%%%%%%%
 from flask_sqlalchemy import SQLAlchemy # 2nd
 from config import Configuration # 1st
