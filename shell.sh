@@ -51,3 +51,13 @@ python manage.py db migrate
 
 python manage.py db upgrade
 
+
+# Templates
+
+mkdir templates
+touch templates/homepage.html
+
+python manage.py runserver
+
+touch templates/base.html
+
